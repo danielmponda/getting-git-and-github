@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="gitblog-page">
+      <img class="cover-img"src="./img/githubbloglarge.jpg" alt="">
+      <div class="container">
+        <div class="section-a">
+          <img class="profile" src="./img/Perfection-2598.jpg" alt="" />
+          <div>Daniel Mponda</div>
+        </div>
+        <div class="section-b">
+          <div class="title">
+            <h1>Getting Git</h1>
+            <h1>An introduction to Git</h1>
+          </div>
+          <div class="table-content">
+            <a href="#intro"> <h3>  Introduction </h3></a>
+            <a href="#vcs"> <h3>  Version Control Systems</h3></a>
+            <a href="#git-hub"><h3>  Git and GitHub</h3></a>
+            <a href="#tuto"> <h3>  Tutorial</h3></a>       
+          </div>
+
+          <div class="section-content">
+
+              <div class="intro" id="intro">
+                <p> <b>Introduction</b> </p>
+
+              <p>
+                One can certainly write some reasonably large and complex programs
+                by themselves - however, depends on the scale and complexity of
+                the project, software development can take weeks, months or even
+                years and can’t simple be done by one person. To complete and
+                distribute a given project in a reasonable amount of time, you may
+                need more than one person working on a given project. Today, a
+                team of developers is responsible for most software builds. For
+                instance, both Google and Facebook have hundreds of software
+                Engineers working and running their respective sites
+                simultaneously. To commodity this many software Engineers working
+                concurrently on a single project can be problematic.
+              </p>
+
+                <p>
+                  Just to mention some of the challenges. <br /><br />
+
+                  - With hundreds of developers working on a single project
+                  simultaneously, how do we keep track on who made a changed, what
+                  have been changed and when did the change occur? <br />
+                  <br />
+                  - How to Integrate and synchronize the work that is done
+                  simultaneously by different members of the team. Especially when
+                  conflicting edits are made by two people to the same line of a
+                  file. <br />
+                  <br />
+                  - How do we keep history of changes and historical versions of a
+                  project in case something goes totally wrong?
+                </p>
+
+                <p>
+                  The solution to this is to develop a system which could provide
+                  a logical method that preserves the individual contributions of
+                  team members without overwriting another developer's work, and
+                  then merges and reconciles changes and updates. The systems
+                  should be able to produce a historical record which can be used
+                  to track down problem origins or archive versions for later use,
+                  this is what Version Control Systems attempts to do.
+                </p>
+
+              </div>
+
+              <div class="vcs" id="vcs">
+              <p>
+                <b>Version Control Systems: </b> <br />
+                <br />
+                Version control systems are a category of software tools /
+                utility that tracks and manages changes to a filesystem, it
+                provides collaborative utilities to share and integrate these
+                filesystem changes by those contributing to a given project.
+                Version control systems will track the addition, deletion, and
+                modification actions applied to files and directories. When a
+                filesystem is traced this is refereed to as a repository.
+              </p>
+
+              <b>Types of Version Control Systems: </b> <br />
+                <div >
+               
+                  <div class="vcs-types-wrapper">
+                    <div>
+                        <p>
+                      <b>Centralized Version Control Systems:</b> Centralized
+                      version control systems contain just one repository and each
+                      user gets their own working copy. You need to commit to
+                      reflecting your changes in the repository. It is possible for
+                      others to see your changes by updating 
+                    </p> 
+                    </div>
+                 <div>
+                     <img src="./img/c.png" alt="">
+                 </div>
+                  
+                   </div> 
+
+
+
+
+
+
+
+
+                   <div class="vcs-types-wrapper">
+                     <div>      <p>
+                      <b>Distributed Version Control Systems:</b> Distributed
+                      version control systems contain multiple repositories; it
+                      consists of local and remotely repositories. Each user has
+                      access to their own local copy of the entire repository and to
+                      central remotely repository. Unlike the centralized version
+                      control, this means that the code is not just stored in a
+                      central server, but the full copy of the code is present in
+                      all the developers’ computers. 
+                    </p> </div>
+                
+                      <div>
+                          <img src="./img/d.png" alt="">
+                      </div>
+                   
+                </div>
+               
+
+              </div>
+              </div>
+
+              <div class="git-hub" id="git-hub">
+              <p>
+                <b> Git and GitHub</b>
+                 <br /><br />
+                Git being a distributed version control system, has a remote
+                repository which is stored in a server and a local repository
+                which is stored in the computer of each developer. This means
+                that the code is not just stored in a central server, but the
+                full copy of the code is present in all the developers’
+                computers. in order to have a central server repository you
+                need firm that from hosting server for your central server
+                repository, luckily there are companies out there who are
+                willing to host your central repositories. Such companies
+                include, GitHub and Bitbucket. <br /><br />
+
+                GitHub, is simply an American multinational corporation that
+                provides hosting for software development and version control
+                using Git for free. It offers the distributed version control
+                and source code management (SCM) functionality of Git, plus
+                its own features.
+                <br /><br />
+                In order to use Git and GitHub in your project, you first need
+                to download Git to track all your filesystems using your local
+                repository and set up a remote repository on the GitHub
+                website.
+              </p>
+              <img class="gitstages" src="./img/gitstages.png" alt="">
+
+              </div>
+
+              <div class="tuto" id="tuto">
+
+                <div class="install">
+                  <h1 class="tuto-steps">Installation</h1>
+
+                    <!-- Download and Install Git :
+                    <a
+                      href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+                      >https://git-scm.com </a> -->
+
+                  <p class="question">	Have you successfully installed Git? </p>
+                   <p>  Use the following command in the command prompt to Verify</p>
+
+
+                    <div class="code-wrapper">
+                      <code >
+                        <span > <span class="function">git</span> –version </span>
+                      </code>
+                    </div>
+
+
+<!--
+                     <p>In order to track the addition, deletion, and modification actions applied to files and directories Git uses the following commands. </p>
+
+
+              <p>-	git add - git push - git commit - git status - git config - git pull - git init - git clone - git merge</p> -->
+
+<!-- <p class="question"> Needs help with Git commands? </p>
+ <p> Use the following command in the command prompt.</p>
+
+<div class="code-wrapper">
+  <code >
+    <div><span  > <span class="function">git</span> help </span></div>
+
+
+  </code>
+</div> -->
+
+                </div>
+
+                <div class="initialize">
+                  <p>
+                    <h1 class="tuto-steps">Initialize</h1>
+                  </p>
+
+                  	<!-- In order to keep track on who made a given change, all contributors within project need to identify themselves.  Use the following command in the command prompt <br><br>
+
+                    <div class="code-wrapper">
+                      <code >
+                        <span > <span class="function">git</span> config --global user.name myUseName </span>
+                      </code>
+                    </div>
+
+                    <div class="code-wrapper">
+                      <code >
+                        <span > <span class="function">git</span> config --global user.email myEmail </span>
+                      </code>
+                    </div>
+
+
+-	Have you successfully identified yourself an author? Use the following command in the command prompt to Verify <br><br>
+
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> config --list</span>
+  </code>
+</div> -->
+
+<p class="question"> Are you currently in the project folder? </p>
+
+<p> Use the following command in the command prompt to change directory.</p>
+
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">cd</span> myproject</span>
+  </code>
+</div>
+
+<!-- <img class="eg-Imgs"src="./img/cdgitProject.PNG" alt=""> -->
+
+<p> to initialize Git in a new or an existing project on your local machine</p>
+
+<p> Use the following command in the command prompt.</p>
+
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> init</span>
+  </code>
+</div>
+
+
+<!--
+then use following command in the command prompt to initialize a local repository <br><br>
+
+<div class="code-wrapper">
+  <code >
+    <span ><span class="function">git</span> remote add </span>
+  </code>
+</div>
+b)	  or you want to work on an existing remotely repository? <br><br>
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> remote add </span>
+  </code>
+</div>
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> pull origin master </span>
+  </code>
+</div> -->
+
+
+                </div>
+
+                <div class="basic-commands">
+                  <p>
+                    <h1 class="tuto-steps">Tracking Changes</h1>
+                  </p>
+
+
+<p class="question"> Have you made, deleted, or modified any files or directories? i.e index.html</p>
+
+<p> Use the following command for Git to add the change to the Staging Area.</p>
+
+
+                  <div class="code-wrapper">
+                    <code >
+                      <span > <span class="function">git</span> add index.html </span>
+                    </code>
+                  </div>
+
+
+Staging Area holds a snapshot of the content of the working tree, and it is this snapshot that is taken as the contents of the next commit.
+
+<p class="question">Satisfied with your changes you added to the Staging Area ?</p>
+
+<p> Use the following command  to record and comment on the chances to the local repository</p>
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> commit -m "Initial Commit Message" </span>
+  </code>
+</div>
+
+<p class="question"> Not satisfied with the recent commit?</p>
+
+<p> Use the following command to revert your code based on commit ID</p>
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span>  reset --hard commit ID
+  </span>
+  </code>
+</div>
+
+<p class="question"> Cant remember the commit ID ?</p>
+
+<p> Use the following command to list all commit info</p>
+
+<div class="code-wrapper">
+  <code >
+    <span > <span class="function">git</span> log
+  </span>
+  </code>
+</div>
+
+
+                </div>
+
+                <div class="publish">
+                  <p>
+                    <h1 class="tuto-steps">Publishing</h1>
+                  </p>
+
+
+                <p class="question"> Ready to publish your changes to a remote repository ?</p>
+
+              <p> Use the following command to connect to a remote repository.</p>
+
+
+              <div class="code-wrapper">
+                <code >
+                  <span ><span class="function">git</span> remote add </span>
+                </code>
+              </div>
+
+              <p class="question"> Have you successfully connected to a remote repository ?</p>
+
+              <p> Use the following command to push all the code from the local repository into the remote repository.</p>
+                  <div class="code-wrapper">
+                    <code >
+                      <span > <span class="function">git</span>	 push -u origin master </span>
+                    </code>
+                  </div>
+
+
+                </div>
+
+                 <div class="branch">
+                  <p>
+                    <h1 class="tuto-steps">Branch</h1>
+                  </p>
+                  <p class="question"> Do you want to isolate from original code and work on new or particular feature/s ?</p>
+
+                  <p> Use the following command to create and branch off the master .</p>
+                      <div class="code-wrapper">
+                        <code >
+                          <span > <span class="function">git</span>	branch branch-name </span>
+                        </code>
+                      </div>
+
+                      <p> Use the following command to switch to the new created branch .</p>
+                      <div class="code-wrapper">
+                        <code >
+                          <span > <span class="function">git</span>	checkout newBranch </span>
+                        </code>
+                      </div>
+
+                      <p class="question"> Satisfied with the new advancement features ?</p>
+
+                      <p> Use the switch command to head back the master branch.</p>
+                          <div class="code-wrapper">
+                            <code >
+
+                              <span > <span class="function">git</span>	checkout master </span>
+                            </code>
+                          </div>
+
+
+                          <p> Use the following command to merge the newBrach to the master branch.</p>
+                          <div class="code-wrapper">
+                            <code >
+
+                              <span > <span class="function">git</span>	merge newBranch </span>
+                            </code>
+                          </div>
+
+                 </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(function () {
+        // Smooth Scrolling
+        $('a[href*="#"]:not([href="#"])').click(function () {
+          if (
+            location.pathname.replace(/^\//, '') ==
+              this.pathname.replace(/^\//, '') &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html, body').animate(
+                {
+                  scrollTop: target.offset().top,
+                },
+                1000
+              );
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
