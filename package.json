@@ -1,0 +1,11 @@
+{
+  "name": "gitblog",
+  "version": "1.0.0",
+  "description": "getting how to use git and github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Mponda",
+  "license": "ISC"
+}
